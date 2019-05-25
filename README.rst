@@ -28,21 +28,21 @@ He's a basic how to:
     assert not validate_version_code(invalid_version_code)
 
 
-.. |travis| image:: https://travis-ci.org/LucaCappelletti94/extra_keras_metrics.png
-   :target: https://travis-ci.org/LucaCappelletti94/extra_keras_metrics
+.. |travis| image:: https://travis-ci.org/LucaCappelletti94/validate_version_code.png
+   :target: https://travis-ci.org/LucaCappelletti94/validate_version_code
 
-.. |sonar_quality| image:: https://sonarcloud.io/api/project_badges/measure?project=LucaCappelletti94_extra_keras_metrics&metric=alert_status
-    :target: https://sonarcloud.io/dashboard/index/LucaCappelletti94_extra_keras_metrics
+.. |sonar_quality| image:: https://sonarcloud.io/api/project_badges/measure?project=LucaCappelletti94_validate_version_code&metric=alert_status
+    :target: https://sonarcloud.io/dashboard/index/LucaCappelletti94_validate_version_code
 
-.. |sonar_maintainability| image:: https://sonarcloud.io/api/project_badges/measure?project=LucaCappelletti94_extra_keras_metrics&metric=sqale_rating
-    :target: https://sonarcloud.io/dashboard/index/LucaCappelletti94_extra_keras_metrics
+.. |sonar_maintainability| image:: https://sonarcloud.io/api/project_badges/measure?project=LucaCappelletti94_validate_version_code&metric=sqale_rating
+    :target: https://sonarcloud.io/dashboard/index/LucaCappelletti94_validate_version_code
 
-.. |sonar_coverage| image:: https://sonarcloud.io/api/project_badges/measure?project=LucaCappelletti94_extra_keras_metrics&metric=coverage
-    :target: https://sonarcloud.io/dashboard/index/LucaCappelletti94_extra_keras_metrics
+.. |sonar_coverage| image:: https://sonarcloud.io/api/project_badges/measure?project=LucaCappelletti94_validate_version_code&metric=coverage
+    :target: https://sonarcloud.io/dashboard/index/LucaCappelletti94_validate_version_code
 
 .. |code_climate_maintainability| image:: https://api.codeclimate.com/v1/badges/25fb7c6119e188dbd12c/maintainability
-   :target: https://codeclimate.com/github/LucaCappelletti94/extra_keras_metrics/maintainability
+   :target: https://codeclimate.com/github/LucaCappelletti94/validate_version_code/maintainability
    :alt: Maintainability
 
-.. |pip| image:: https://badge.fury.io/py/extra_keras_metrics.svg
-    :target: https://badge.fury.io/py/extra_keras_metrics
+.. |pip| image:: https://badge.fury.io/py/validate_version_code.svg
+    :target: https://badge.fury.io/py/validate_version_code
