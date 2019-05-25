@@ -9,7 +9,7 @@ addons:
   sonarcloud:
     organization: "lucacappelletti94-github"
     token:
-      secure: "PVPIfAy/TwdsGWl1Lx3/AsM6V4l2bOEaEvtwPQ3xE4tqMz4qJA3EtWTnBUNYYISswgZl8FAPm9Yd1ZTImb4xAKH4vJZqww00awJeDrYNhEFCWV/FR3k/9lerTur53sa91b9zb2zd/oIZBwtqfkWHRRE35XJEITnc4R5odHCHc6uOsB5CK7IwrFo49AeEvRsw9bxTSfN9ALXyAyaX+CQ6yZY/jSKo8Fo2FNTEivGoRLs7JdvTvrQ5ofqv7zvNIOvjdtlreeeZxjGq8CzcpxVOBJAIkJTlfmG8jfQIyoz1U6GBUG6bdMwQ+9NJ27+EpJZIJQtIWKoBR6fIkNo2t0riIodFCGkMCIRvDl2D3c3n/uZ2octAwHZvH2GsQiBJTWjUp4PXiOzMIPI9lG2I3B4XeJsZMGgwEjBglYyyuW6OBTFoQ4iIL73e9K/s7VQrhLsx6tNlBUx7/OOvEcWoTWMs9zHIiqFEX+AKwJy0+fwoMt+aa4ZJV1LDRMuocizZL0iLXx5/ZemaI99AtkjkntCugltb79oPnOO6mDF71LRNVF5MDsRgl23rY8Q+8iA0PP2q+eKwX3tkc6u3idEanscXNS2rUGDejjOoGWy3TTyjQqUF2MbIdFSRhnz3hhO8BarzA5Ry1//x+UMXjPJ3H1PTrFD1wbE5am9DQJ6ckgmefoc="
+      secure: "pWhsthzcP9qps05g+zgFaUFnheTRFWDEjVbIXxnpPDZLHR7akBjlfW6LbJTtLw7An0XlxFrWdXQUYDsvHVst38JHpUTfq8+9TTuMcvsUrR66KHxwsYjl60eQhb+nRePJEc+hsZs32vmOC/JoVflqgiLWzKNAUDCNo3uzcqEHWbADHniWBv5AmxJzI+nZj92rPujmhfOldSuCX7MIB1M3ODFppYaSBVtpIYZePM/9SN+N469XJaPrcc1+zAS/wUfSCyjVwIGUoVatp+v4wOOEhQJR6tSMO2wAbfVOayfgrxoKz0MqAUe4+7h+/dt5MAHkOe8GzrfRcYkFeQaD1vVX+YXBZQbGsvJ9qGZd1U5GuIwuWrJRFgKaKu0GAOTkZ+VYUprCWjsivrbJXJFysZTzE5OGaRT335L+f+KPYj6n1eD49SGo7yJewJ3eDUhz6ElS6BJyaAvuHv9PnUNJVfAtbDR4FQEt9LjXouNkrgesWQguevGyIGyo2rBkX8GDvCGNeIay/u4syJwJYUuwNYjvav04Ihzn9XEZxgtppa71mP0Q3D+qNiwqw0KjuLiPVWFVDk52EvYl0V1ZgAofi4uMR5+OS7uq5CIFh7CwIrQtCsCbfAnmtm2VYOc1XsSmD2xvzejfrRGsKD9tgDFnE6fJWQA//XjipP2JWHyaof2k3LM="
 language: python
 python:
 - '3.6'
@@ -26,14 +26,10 @@ after_script:
 script:
 - rm -rf .coverage
 - coverage erase
-- pytest --cov=extra_keras_metrics --cov-report xml:coverage.xml 
+- pytest --cov=validate_version_code --cov-report xml:coverage.xml 
 - coverage report
 - coverage xml
 - sonar-scanner
 
 after_success:
   - coveralls
-
-notifications:
-  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
-  email: false
