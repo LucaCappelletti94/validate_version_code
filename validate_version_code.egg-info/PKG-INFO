@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: validate-version-code
-Version: 1.0.0
+Version: 1.0.1
 Summary: Python package to validate version code.
 Home-page: https://github.com/LucaCappelletti94/validate_version_code
 Author: Luca Cappelletti
