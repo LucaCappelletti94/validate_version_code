@@ -18,7 +18,19 @@ Since some software handling coverages sometime get slightly different results, 
 
 |coveralls| |sonar_coverage| |code_climate_coverage|
 
-AFTER
+Usage example
+--------------------------------------------
+He's a basic how to:
+
+.. code:: python
+
+    from validate_version_code import validate_version_code
+
+    valid_version_code = "1.2.3"
+    invalid_version_code = "beta.3"
+
+    assert validate_version_code(valid_version_code)
+    assert not validate_version_code(invalid_version_code)
 
 .. |travis| image:: https://travis-ci.org/LucaCappelletti94/validate_version_code.png
    :target: https://travis-ci.org/LucaCappelletti94/validate_version_code
