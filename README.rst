@@ -14,13 +14,14 @@ As usual, just download it using pip:
 
 Tests Coverage
 ----------------------------------------------
-Since some software handling coverages sometime get slightly different results, here's three of them:
+Since some software handling coverages sometimes
+get slightly different results, here's three of them:
 
 |coveralls| |sonar_coverage| |code_climate_coverage|
 
 Usage example
 --------------------------------------------
-He's a basic how to:
+He's a basic how-to:
 
 .. code:: python
 
@@ -52,15 +53,15 @@ He's a basic how to:
     :target: https://coveralls.io/github/LucaCappelletti94/validate_version_code?branch=master
     :alt: Coveralls Coverage
 
-.. |pip| image:: https://badge.fury.io/py/validate_version_code.svg
-    :target: https://badge.fury.io/py/validate_version_code
+.. |pip| image:: https://badge.fury.io/py/validate-version-code.svg
+    :target: https://badge.fury.io/py/validate-version-code
     :alt: Pypi project
 
-.. |downloads| image:: https://pepy.tech/badge/validate_version_code
-    :target: https://pepy.tech/badge/validate_version_code
+.. |downloads| image:: https://pepy.tech/badge/validate-version-code
+    :target: https://pepy.tech/badge/validate-version-code
     :alt: Pypi total project downloads 
 
-.. |codacy|  image:: https://api.codacy.com/project/badge/Grade/7a1b6189d2b740319aee86fd8a7cecf4
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/7a1b6189d2b740319aee86fd8a7cecf4
     :target: https://www.codacy.com/app/LucaCappelletti94/validate_version_code?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LucaCappelletti94/validate_version_code&amp;utm_campaign=Badge_Grade
     :alt: Codacy Maintainability
 
