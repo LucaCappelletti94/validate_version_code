@@ -28,3 +28,7 @@ invalid_version_code = "beta.3"
 assert validate_version_code(valid_version_code)
 assert not validate_version_code(invalid_version_code)
 ```
+
+## License
+
+This package is distributed under the MIT license. This license can be found [here](LICENSE).
