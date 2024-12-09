@@ -1,7 +1,7 @@
 # validate_version_code
 
-![PyPI](https://badge.fury.io/py/validate-version-code.svg)  
-![Downloads](https://pepy.tech/badge/validate-version-code)
+[![PyPI](https://badge.fury.io/py/validate-version-code.svg)](https://pypi.org/project/validate-version-code/)
+[![Downloads](https://pepy.tech/badge/validate-version-code)](https://pepy.tech/project/validate-version-code)
 [![License](https://img.shields.io/github/license/LucaCappelletti94/validate_version_code)](https://github.com/LucaCappelletti94/validate_version_code/blob/master/LICENSE)
 [![Github Actions](https://github.com/LucaCappelletti94/validate_version_code/actions/workflows/python.yml/badge.svg)](https://github.com/LucaCappelletti94/validate_version_code/actions/)
 
