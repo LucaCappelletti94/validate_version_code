@@ -1,5 +1,6 @@
 from validate_version_code import validate_version_code
 
+
 def test_validate_version_code():
     assert validate_version_code("1.0.0")
     assert validate_version_code("1.0.0")
