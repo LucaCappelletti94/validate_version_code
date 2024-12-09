@@ -21,3 +21,4 @@ __pycache__
 *.pyd
 *.pyw
 
+tests/test_readme.py

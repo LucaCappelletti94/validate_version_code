@@ -33,7 +33,7 @@ def find_version(*file_paths):
 
 __version__ = find_version("validate_version_code", "__version__.py")
 
-test_deps = ["pytest", "pytest-cov"]
+test_deps = ["pytest", "pytest-cov", "pytest-readme"]
 
 extras = {
     "test": test_deps,
